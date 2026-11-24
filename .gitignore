@@ -1,0 +1,25 @@
+# 密钥与本地配置
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# 运行时数据（数据库/生成的作品图）
+data/*.db
+data/works/
+data/task_media/
+data/test_task_media/
+data/test_works/
+
+# 前端
+puju-web/node_modules/
+
+# 注：puju-web/dist 保留入库——克隆后无需Node环境即可一条命令启动整站
+
+# 系统
+.DS_Store
+Thumbs.db
